@@ -1,0 +1,54 @@
+body {
+    background-image: url('background.png');
+    margin: auto;
+}
+.navBar {
+    background-color: #f8af23;
+    height: 50px;
+    position: relative;
+}
+a {
+    margin-top: 30px;
+    position: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    color: black;
+    padding-bottom: 17px;
+}
+a:hover {
+   background-color: #f46275;
+    color: white;
+}
+.pageContent {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 32px;
+}
+#pageImg {
+    margin-bottom: 1px;
+    filter: drop-shadow(.4rem .4rem .5rem gray);
+}
+#courseTitle {
+    margin-top: 1px;
+    margin-bottom: 0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    color: #3f3679;
+}
+#submitBtn {
+    font-size: 17px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    width: 13%;
+    height: 45px;
+    margin-top: 1px;
+    border-radius: 15px;
+    color: black;
+    background-color:#f8af23;
+    border-color: aliceblue;
+    box-shadow: 5px 5px 5px gray;
+}
+#submitBtn:hover {
+    background-color:#f46275;
+    color: white;
+}
